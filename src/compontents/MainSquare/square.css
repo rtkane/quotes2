@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.square {
+    height: 500px;
+    width: 1000px;
+    border: 1px solid  #707070;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    position: relative;
+}
+
+.square-quote{
+    text-wrap: auto;
+    margin: 0;
+    color: #707070;
+    font-size: 24pt;
+    font-family: Montserrat Semi Bold;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    background-color: transparent;
+    color: #707070;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.left-arrow {
+    left: -40px;
+}
+
+.right-arrow {
+    right: -40px;
+}
+
+.category-buttons {
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+.category-buttons button {
+    color: #707070;
+
+    background-color: #f0f0f000;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-family: Montserrat Medium;
+    font-size: 24px;
+}
+
+.category-buttons button:hover {
+    font-family: Montserrat Extra Bold;
+
+}
+
+.category-buttons button.selected {
+    font-weight: bold;
+    background-color: #e0e0e000; 
+}
