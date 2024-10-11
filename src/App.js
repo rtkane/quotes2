@@ -1,5 +1,5 @@
 import "./App.css";
-import SquareQuote from "./components/MainSquare/square";
+import SquareQuote from "./compontents/MainSquare/square";
 
 function App() {
   return (
